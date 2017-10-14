@@ -5,12 +5,7 @@ const port = 4000;
 
 const app = express();
 
-
 app.set('view engine', 'hbs');
-
-// Handlebars.registerHelper('json', function (content) {
-//     return JSON.stringify(content);
-// });
 
 app.get('/', (req,res) => {
 
