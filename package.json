@@ -6,13 +6,15 @@
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.1",
-    "hbs": "^4.0.1",
     "mongoose": "^4.12.1"
+  },
+  "engines": {
+    "node": "8.1.3"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./APIserver/APIserver.js"
+    "start": "node APIserver/APIserver.js"
   },
   "author": "",
   "license": "ISC"
