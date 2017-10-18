@@ -32,10 +32,12 @@ app.use(function (req, res, next) {
 
 app.get('/testpath', (req,res) => {
   var points = [
-    {lat: 37.772, lng: -122.214},
-    {lat: 21.291, lng: -157.821},
-    {lat: -18.142, lng: 178.431},
-    {lat: -27.467, lng: 153.027}
+    {lat: 45.5454592, lng: 18.6954056},
+    {lat: 40.7590403, lng: -74.0392709},
+    // {lat: 37.772, lng: -122.214},
+    // {lat: 21.291, lng: -157.821},
+    // {lat: -18.142, lng: 178.431},
+    // {lat: -27.467, lng: 153.027}
   ];
   return res.send(points).catch((e) => {
     res.status(400).send();
